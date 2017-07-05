@@ -430,6 +430,34 @@ cite img {
     margin-right: 10px;
 }
 
+/*-------------------------------MENUS---------------------------*/
+.section-menus{
+    background-color: #f4f4f4;
+}
+
+.section-menus h3{
+    text-align: center;
+}
+.section-menus h3:after{
+    display: block;
+    height: 2px;
+    background-color: #1abc9c;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.mbox p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.mbox li{
+    margin: 10px;
+    list-style: circle;
+}
+
 /* -------------------------------- FORM ----------------------------- */
 
 .contact-form {
