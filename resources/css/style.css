@@ -67,7 +67,9 @@ h2 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #1abc9c;
+    background: #1FA2FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -441,7 +443,9 @@ cite img {
 .section-menus h3:after{
     display: block;
     height: 2px;
-    background-color: #1abc9c;
+    background: #1FA2FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -487,13 +491,13 @@ input[type=checkbox] {
 
 .map-box {
     width: 100%;
-    height: 500px;
+    height: 550px;
     position: relative;
 }
 
 .map {
     width: 100%;
-    height: 560px;
+    height: 700px;
     position: relative;
     z-index: 0;
 }
@@ -505,7 +509,7 @@ input[type=checkbox] {
     right: 0;
     background-color: rgba(255, 255, 255, 0.8);
     z-index: 10;
-    height: 560px;
+    height: 700px;
     padding-top: 40px
 }
 
